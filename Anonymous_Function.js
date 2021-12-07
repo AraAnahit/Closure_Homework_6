@@ -1,5 +1,5 @@
 function add_suffix(suffix) {
-    return function change (given_word) {
+    return function (given_word) {
       return given_word+suffix
     }
   }
